@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link, push } from 'gatsby'
 import {Navbar, NavItem, Nav } from 'react-bootstrap';
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 const Header = ({ siteTitle }) => (
   <Navbar collapseOnSelect>
