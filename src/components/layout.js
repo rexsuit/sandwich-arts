@@ -14,6 +14,7 @@ const headsUpBox = css`
   border: 2px solid currentColor;
   font-size: 18px;
   padding: 8px 4px;
+  margin-bottom: 48px;
 `
 
 const Layout = ({ children, data }) => (

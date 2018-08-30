@@ -3,8 +3,15 @@ import Layout from '../components/layout'
 
 const NotFoundPage = () => (
   <Layout>
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <Grid className={css`padding-top:48px;`}>
+      <Row>
+        { images.map((image, index) => (
+        <Col xs={12} className={css`text-align: center;`}>
+          <p>Well, looks like you've found it. The dreaded 404 error, aka the missing page. Fear not though. Whatever you've been looking for is likely on <a href="www.moonbeyond.com" target="_blank">www.moonbeyond.com</a></p>
+        </Col>
+        ))}
+      </Row>
+    </Grid>
   </Layout>
 )
 
