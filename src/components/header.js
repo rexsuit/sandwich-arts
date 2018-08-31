@@ -30,7 +30,7 @@ const navbarHeader = css`
 
 
 const Header = ({ siteTitle }) => (
-  <Navbar collapseOnSelect>
+  <Navbar collapseOnSelect fixedTop="true">
   <Navbar.Header className={navbarHeader}>
     <Navbar.Brand className={css`display: flex; justify-content: center; align-items: center;`}>
       <Link to='/'>
