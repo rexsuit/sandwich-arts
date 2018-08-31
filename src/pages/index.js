@@ -27,7 +27,7 @@ class IndexPage extends React.Component {
           <Row>
             <Col xs={12}>
               <h2 className={header}>Graphic Design Menu</h2>
-              <p className={paragraph}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem sapiente iste quo corrupti quasi voluptates in nisi iusto itaque accusamus consectetur veritatis delectus distinctio magnam odit expedita quam, dolores suscipit?</p>
+              {/* <p className={paragraph}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem sapiente iste quo corrupti quasi voluptates in nisi iusto itaque accusamus consectetur veritatis delectus distinctio magnam odit expedita quam, dolores suscipit?</p> */}
             </Col>
             <Col md={4} style={{textAlign: 'center'}}><Link to="/graphic-design/condo-concierge/"><img src={thumbData.CondoConcierge.childImageSharp.resolutions.src} alt=""/></Link></Col>
             <Col md={4} style={{textAlign: 'center'}}><Link to="/graphic-design/monster-factory/"><img src={thumbData.MonsterFactory.childImageSharp.resolutions.src} alt=""/></Link></Col>
