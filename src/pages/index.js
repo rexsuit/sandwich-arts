@@ -29,14 +29,14 @@ class IndexPage extends React.Component {
               <h2 className={header}>Graphic Design Menu</h2>
               <p className={paragraph}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rem sapiente iste quo corrupti quasi voluptates in nisi iusto itaque accusamus consectetur veritatis delectus distinctio magnam odit expedita quam, dolores suscipit?</p>
             </Col>
-            <Col md={4}><Link to="/graphic-design/condo-concierge/"><img src={thumbData.CondoConcierge.childImageSharp.resolutions.src} alt=""/></Link></Col>
-            <Col md={4}><Link to="/graphic-design/monster-factory/"><img src={thumbData.MonsterFactory.childImageSharp.resolutions.src} alt=""/></Link></Col>
-            <Col md={4}><Link to="/graphic-design/lotus-herring/"><img src={thumbData.LotusHerring.childImageSharp.resolutions.src} alt=""/></Link></Col>
-            <Col md={4}><Link to="/graphic-design/innofit/"><img src={thumbData.Innofit.childImageSharp.resolutions.src} alt=""/></Link></Col>
-            <Col md={4}><Link to="/graphic-design/halseonne/"><img src={thumbData.Halseonne.childImageSharp.resolutions.src} alt=""/></Link></Col>
-            <Col md={4}><Link to="/graphic-design/cumberland/"><img src={thumbData.Cumberland.childImageSharp.resolutions.src} alt=""/></Link></Col>
-            <Col md={4}><Link to="/graphic-design/green-cities/"><img src={thumbData.GreenCities.childImageSharp.resolutions.src} alt=""/></Link></Col>
-            <Col md={4}><Link to="/graphic-design/salt-wit/"><img src={thumbData.SaltWit.childImageSharp.resolutions.src} alt=""/></Link></Col>
+            <Col md={4} style={{textAlign: 'center'}}><Link to="/graphic-design/condo-concierge/"><img src={thumbData.CondoConcierge.childImageSharp.resolutions.src} alt=""/></Link></Col>
+            <Col md={4} style={{textAlign: 'center'}}><Link to="/graphic-design/monster-factory/"><img src={thumbData.MonsterFactory.childImageSharp.resolutions.src} alt=""/></Link></Col>
+            <Col md={4} style={{textAlign: 'center'}}><Link to="/graphic-design/lotus-herring/"><img src={thumbData.LotusHerring.childImageSharp.resolutions.src} alt=""/></Link></Col>
+            <Col md={4} style={{textAlign: 'center'}}><Link to="/graphic-design/innofit/"><img src={thumbData.Innofit.childImageSharp.resolutions.src} alt=""/></Link></Col>
+            <Col md={4} style={{textAlign: 'center'}}><Link to="/graphic-design/halseonne/"><img src={thumbData.Halseonne.childImageSharp.resolutions.src} alt=""/></Link></Col>
+            <Col md={4} style={{textAlign: 'center'}}><Link to="/graphic-design/cumberland/"><img src={thumbData.Cumberland.childImageSharp.resolutions.src} alt=""/></Link></Col>
+            <Col md={4} style={{textAlign: 'center'}}><Link to="/graphic-design/green-cities/"><img src={thumbData.GreenCities.childImageSharp.resolutions.src} alt=""/></Link></Col>
+            <Col md={4} style={{textAlign: 'center'}}><Link to="/graphic-design/salt-wit/"><img src={thumbData.SaltWit.childImageSharp.resolutions.src} alt=""/></Link></Col>
               
               
           </Row>
