@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import {Navbar,  Nav } from 'react-bootstrap';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import { css } from 'emotion'
-import sandwichIcon from '../images/sandwich-icon.svg'
+// import sandwichIcon from '../images/sandwich-icon.svg'
 
 const listItem = css`
   margin: 0 15px
@@ -18,17 +18,27 @@ const activeLink = css`
   border-top-color: #333;
 `
 
+const navbarHeader = css`
+  @media (min-width: 769px) {
+    height: 83px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+`
+
 
 
 const Header = ({ siteTitle }) => (
   <Navbar collapseOnSelect>
-  <Navbar.Header>
+  <Navbar.Header className={navbarHeader}>
     <Navbar.Brand className={css`display: flex; justify-content: center; align-items: center;`}>
       <Link to='/'>
-        <div className="hidden-sm hidden-md hidden-lg">Sandwich Arts</div>
-        <div className="hidden-xs">
+        <div>Sandwich Arts</div>
+        {/* <div className="hidden-sm hidden-md hidden-lg">Sandwich Arts</div> */}
+        {/* <div className="hidden-xs">
           <img className={ css`width: 40px; margin-bottom: 0;`}  src={sandwichIcon} alt="" />
-        </div>
+        </div> */}
       </Link>
     </Navbar.Brand>
     <Navbar.Toggle />
