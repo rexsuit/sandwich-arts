@@ -71,7 +71,6 @@ const Layout = ({ children, data }) => (
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    font-weight: bold;
                     font-size: 2em;
                   `}
                 >
@@ -80,6 +79,7 @@ const Layout = ({ children, data }) => (
                       margin-right: 6px;
                       margin-bottom: 0;
                       text-transform: uppercase;
+                      font-weight: normal;
                     `}
                   >
                     Meanwhile check out the illustrations on the gram{' '}
