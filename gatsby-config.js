@@ -30,10 +30,10 @@ module.exports = {
     //     name: "markdown-pages",
     //   },
     // },
-    `gatsby-transformer-remark`,
-    'gatsby-plugin-offline',
-    'gatsby-plugin-netlify',
+    // `gatsby-transformer-remark`,
+    // 'gatsby-plugin-offline',
+    // 'gatsby-plugin-netlify',
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`
+    `gatsby-plugin-sharp`,
   ],
 }
