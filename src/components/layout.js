@@ -79,6 +79,7 @@ const Layout = ({ children, data }) => (
                     className={css`
                       margin-right: 6px;
                       margin-bottom: 0;
+                      text-transform: uppercase;
                     `}
                   >
                     Meanwhile check out the illustrations on the gram{' '}
